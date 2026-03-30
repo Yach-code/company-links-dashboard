@@ -22,7 +22,7 @@ const linkData = [
         url: "https://eip.apps.rhdgroup.com.tw/od/seal",
         category: "production",
         env: "formal",
-         icon: "📚"
+        icon: "📚"
     },
     {
         title: "帳務系統",
@@ -30,6 +30,7 @@ const linkData = [
         url: "https://exp.apps.rhdgroup.com.tw/",
         category: "production",
         env: "formal",
+        icon: "📚"
     },
     {
         title: "物料管理",
@@ -37,6 +38,7 @@ const linkData = [
         url: "https://eip.apps.rhdgroup.com.tw/material",
         category: "production",
         env: "formal",
+        icon: "📚"
     },
       {
         title: "固資管理",

@@ -5,6 +5,8 @@ const linkData = [
         url: "https://eip.apps.rhdgroup.com.tw/",
         category: "production",
         env: "formal",
+        icon: "📚"
+
     },
     {
         title: "公文管理",
@@ -12,6 +14,7 @@ const linkData = [
         url: "https://eip.apps.rhdgroup.com.tw/od",
         category: "production",
         env: "formal",
+         icon: "📚"
     },
     {
         title: "印鑑管理",
@@ -19,6 +22,7 @@ const linkData = [
         url: "https://eip.apps.rhdgroup.com.tw/od/seal",
         category: "production",
         env: "formal",
+         icon: "📚"
     },
     {
         title: "帳務系統",
@@ -40,6 +44,7 @@ const linkData = [
         url: "https://asset.apps.rhdgroup.com.tw/",
         category: "production",
         env: "formal",
+         icon: "📚"
     },
       {
         title: "業主合約",
@@ -47,6 +52,7 @@ const linkData = [
         url: "https://eip.apps.rhdgroup.com.tw/conteng",
         category: "production",
         env: "formal",
+         icon: "📚"
     },
       {
         title: "總帳系統",
@@ -54,6 +60,7 @@ const linkData = [
         url: "https://gmfin.rhdgroup.com.tw/",
         category: "production",
         env: "formal",
+         icon: "📚"
     },
        {
         title: "底渣管理",
@@ -61,6 +68,7 @@ const linkData = [
         url: "https://bottom-ash.apps.rhdgroup.com.tw/",
         category: "production",
         env: "formal",
+         icon: "📚"
     },
      {
         title: "使用者權限維護",
@@ -68,6 +76,7 @@ const linkData = [
         url: "http://172.16.10.240:8484/common-setup/auth-config?sort=empNo%2Casc&page=1&size=15&comNo=AD&appCode=eip",
        category: "production",
         env: "formal",
+         icon: "📚"
     },
     {
         title: "入口網站",
@@ -75,6 +84,8 @@ const linkData = [
         url: "http://172.16.10.240:8484/",
         category: "development",
         env: "uat",
+                icon: "📝"
+
     },
      {
         title: "公文管理",
@@ -82,6 +93,8 @@ const linkData = [
         url: "http://172.16.10.240:8484/od",
         category: "development",
         env: "uat",
+        icon: "📝"
+
     },
      {
         title: "印鑑管理",
@@ -89,6 +102,8 @@ const linkData = [
         url: "http://172.16.10.240:8484/od/seal",
         category: "development",
         env: "uat",
+        icon: "📝"
+
     },
      {
         title: "帳務管理",
@@ -96,6 +111,8 @@ const linkData = [
         url: "http://172.16.10.240:8480/",
         category: "development",
         env: "uat",
+        icon: "📝"
+
     },
      {
         title: "物料管理",
@@ -110,6 +127,8 @@ const linkData = [
         url: "http://172.16.10.240:8483/",
         category: "development",
         env: "uat",
+                icon: "📝"
+
     },
      {
         title: "業主合約",
@@ -117,6 +136,8 @@ const linkData = [
         url: "http://172.16.10.240:8484/conteng",
         category: "development",
         env: "uat",
+                icon: "📝"
+
     },
      {
         title: "UAT入口網站",
@@ -124,6 +145,8 @@ const linkData = [
         url: "http://172.16.10.240:8484/",
         category: "development",
         env: "uat",
+                icon: "📝"
+
     },
      {
         title: "工程管理",
@@ -131,6 +154,8 @@ const linkData = [
         url: "http://172.16.10.240:8484/contproj",
         category: "development",
         env: "uat",
+        icon: "📝"
+
     },
     {
         title: "代操管理",
@@ -138,6 +163,8 @@ const linkData = [
         url: "http://172.16.10.240:8484/sweip",
         category: "development",
         env: "uat",
+        icon: "📝"
+
     },
      {
         title: "行政管理",
@@ -145,6 +172,8 @@ const linkData = [
         url: "http://172.16.10.240:8484/bas",
         category: "development",
         env: "uat",
+                icon: "📝"
+
     },
      {
         title: "底渣管理",
@@ -152,6 +181,8 @@ const linkData = [
         url: "http://172.16.10.240:8481/",
         category: "development",
         env: "uat",
+        icon: "📝"
+
     },
          {
         title: "總帳系統",
@@ -159,6 +190,8 @@ const linkData = [
         url: "http://172.16.10.236:8084/",
         category: "development",
         env: "uat",
+        icon: "📝"
+
     },
     {
         title: "使用者權限維護",
@@ -166,6 +199,8 @@ const linkData = [
         url: "http://172.16.10.240:8484/common-setup/auth-config?sort=empNo%2Casc&page=1&size=15&comNo=AD&appCode=eip",
         category: "tools",
         env: "uat",
+        icon: "📝"
+
     },
     {
         title: "舊總帳-1",
@@ -173,6 +208,8 @@ const linkData = [
         url: "172.16.10.203",
         category: "old",
         env: "old",
+        icon: "🦊"
+
     },
     {
         title: "舊總帳-2",
@@ -180,6 +217,8 @@ const linkData = [
         url: "172.16.10.114",
         category: "old",
         env: "old",
+        icon: "🦊"
+
     },
       {
         title: "舊總帳-測試",
@@ -187,6 +226,8 @@ const linkData = [
         url: "http://172.16.10.114/992/",
         category: "old",
         env: "old",
+        icon: "🦊"
+
     },
     {
         title: "Gitlab",
@@ -194,6 +235,8 @@ const linkData = [
         url: "https://gitlab.rhdgroup.com.tw/",
         category: "tools",
         env: "issue",
+        icon: "🦊"
+
     },
     {
         title: "Redmine",
@@ -201,6 +244,8 @@ const linkData = [
         url: "https://redmine.rhdgroup.com.tw/login?back_url=https%3A%2F%2Fredmine.rhdgroup.com.tw%2Fprojects",
         category: "tools",
         env: "issue",
+        icon: "🦊"
+
     },
     {
         title: "巨山林資訊儀表板",
@@ -208,6 +253,8 @@ const linkData = [
         url: "https://dms.rhdgroup.com.tw/index.php/apps/dashboard/",
         category: "tools",
         env: "issue",
+        icon: "🦊"
+
     }
 ];
 
@@ -262,6 +309,8 @@ function renderLinks(links) {
 
     filteredFormal.forEach(link => formalGrid.appendChild(createCard(link)));
     filteredUat.forEach(link => uatGrid.appendChild(createCard(link)));
+    filteredIssue.forEach(link => issueGrid.appendChild(createCard(link)));
+    filteredOld.forEach(link => oldGrid.appendChild(createCard(link)));
 
     // Handle empty group headers (optional)
     if (filteredFormal.length === 0) {
@@ -269,6 +318,12 @@ function renderLinks(links) {
     }
     if (filteredUat.length === 0) {
         uatGrid.innerHTML = '<div class="empty-msg">No UAT links found.</div>';
+    }
+    if (filteredIssue.length === 0) {
+        issueGrid.innerHTML = '<div class="empty-msg">No issue links found.</div>';
+    }
+    if (filteredOld.length === 0) {
+        oldGrid.innerHTML = '<div class="empty-msg">No old links found.</div>';
     }
 }
 

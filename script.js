@@ -1,98 +1,234 @@
 const linkData = [
     {
-        title: "EIP Employee Portal",
-        description: "Main portal for internal announcements, forms, and administrative tasks.",
-        url: "https://eip.example.com",
-        category: "hr",
+        title: "入口網站",
+        description: "查看待簽核表單，連結其他系統",
+        url: "https://eip.apps.rhdgroup.com.tw/",
+        category: "production",
         env: "formal",
         icon: "📅"
     },
     {
-        title: "Production Dashboard",
-        description: "Real-time metrics and monitoring for the production environment.",
-        url: "https://dash.example.com",
+        title: "公文管理",
+        description: "公文收發與簽核",
+        url: "https://eip.apps.rhdgroup.com.tw/od",
         category: "production",
         env: "formal",
         icon: "📈"
     },
     {
-        title: "GitLab Repository",
-        description: "Main source code management and deployment pipelines.",
-        url: "https://gitlab.example.com",
-        category: "development",
+        title: "印鑑管理",
+        description: "用印作業",
+        url: "https://eip.apps.rhdgroup.com.tw/od/seal",
+        category: "production",
         env: "formal",
         icon: "🦊"
     },
     {
-        title: "Jira Issue Tracking",
-        description: "Project management, sprint planning, and bug tracking.",
-        url: "https://jira.example.com",
-        category: "tools",
+        title: "帳務系統",
+        description: "零用金、付款單申請，Esg表單輸入",
+        url: "https://exp.apps.rhdgroup.com.tw/",
+        category: "production",
         env: "formal",
         icon: "📝"
     },
     {
-        title: "UAT EIP Portal",
-        description: "Testing environment for new employee portal features.",
-        url: "https://uat-eip.example.com",
-        category: "hr",
-        env: "uat",
+        title: "物料管理",
+        description: "物料請採購",
+        url: "https://eip.apps.rhdgroup.com.tw/material",
+        category: "production",
+        env: "formal",
         icon: "🧪"
     },
-    {
-        title: "UAT Metrics Dash",
-        description: "Monitoring for the UAT testing environment.",
-        url: "https://uat-dash.example.com",
+      {
+        title: "固資管理",
+        description: "固資維護",
+        url: "https://asset.apps.rhdgroup.com.tw/",
         category: "production",
+        env: "formal",
+        icon: "🧪"
+    },
+      {
+        title: "業主合約",
+        description: "業主合約管理、業主請款作業",
+        url: "https://eip.apps.rhdgroup.com.tw/conteng",
+        category: "production",
+        env: "formal",
+        icon: "🧪"
+    },
+      {
+        title: "總帳系統",
+        description: "財會作業",
+        url: "https://gmfin.rhdgroup.com.tw/",
+        category: "production",
+        env: "formal",
+        icon: "🧪" 
+    },
+       {
+        title: "底渣管理",
+        description: "底渣管理",
+        url: "https://bottom-ash.apps.rhdgroup.com.tw/",
+        category: "production",
+        env: "formal",
+        icon: "🧪" 
+    },
+    {
+        title: "入口網站",
+        description: "UAT入口網站",
+        url: "http://172.16.10.240:8484/",
+        category: "development",
+        env: "uat",
+        icon: "📊"
+    },
+     {
+        title: "公文管理",
+        description: "",
+        url: "http://172.16.10.240:8484/od",
+        category: "development",
+        env: "uat",
+        icon: "📊"
+    },
+     {
+        title: "印鑑管理",
+        description: "",
+        url: "http://172.16.10.240:8484/od/seal",
+        category: "development",
+        env: "uat",
+        icon: "📊"
+    },
+     {
+        title: "帳務管理",
+        description: "",
+        url: "http://172.16.10.240:8480/",
+        category: "development",
+        env: "uat",
+        icon: "📊"
+    },
+     {
+        title: "物料管理",
+        description: "",
+        url: "http://172.16.10.240:8484/material",
+        category: "development",
+        env: "uat",
+        icon: "📊"
+    },
+     {
+        title: "固資管理",
+        description: "",
+        url: "http://172.16.10.240:8483/",
+        category: "development",
+        env: "uat",
+        icon: "📊"
+    },
+     {
+        title: "業主合約",
+        description: "",
+        url: "http://172.16.10.240:8484/conteng",
+        category: "development",
+        env: "uat",
+        icon: "📊"
+    },
+     {
+        title: "UAT入口網站",
+        description: "UAT入口網站",
+        url: "http://172.16.10.240:8484/",
+        category: "development",
+        env: "uat",
+        icon: "📊"
+    },
+     {
+        title: "工程管理",
+        description: "",
+        url: "http://172.16.10.240:8484/contproj",
+        category: "development",
         env: "uat",
         icon: "📊"
     },
     {
-        title: "UAT GitLab Runner",
-        description: "Testing for GitLab CI/CD pipeline automation.",
-        url: "https://uat-gitlab.example.com",
+        title: "代操管理",
+        description: "",
+        url: "http://172.16.10.240:8484/sweip",
+        category: "development",
+        env: "uat",
+        icon: "🧪"
+    },
+     {
+        title: "行政管理",
+        description: "",
+        url: "http://172.16.10.240:8484/bas",
+        category: "development",
+        env: "uat",
+        icon: "🧪"
+    },
+     {
+        title: "底渣管理",
+        description: "",
+        url: "http://172.16.10.240:8481/",
+        category: "development",
+        env: "uat",
+        icon: "🧪"
+    },
+         {
+        title: "總帳系統",
+        description: "",
+        url: "http://172.16.10.236:8084/",
         category: "development",
         env: "uat",
         icon: "🧪"
     },
     {
-        title: "UAT Jira Sandbox",
-        description: "Sandbox environment for trying out new project management flows.",
-        url: "https://uat-jira.example.com",
+        title: "使用者權限維護",
+        description: "",
+        url: "http://172.16.10.240:8484/common-setup/auth-config?sort=empNo%2Casc&page=1&size=15&comNo=AD&appCode=eip",
         category: "tools",
         env: "uat",
         icon: "🏗️"
     },
     {
-        title: "Confluence Docs",
-        description: "Technical documentation and architecture blueprints.",
-        url: "https://confluence.example.com",
-        category: "tools",
+        title: "舊總帳-1",
+        description: "",
+        url: "172.16.10.203",
+        category: "old",
         env: "formal",
         icon: "📚"
     },
     {
-        title: "AWS Console",
-        description: "Cloud infrastructure management and settings.",
-        url: "https://aws.amazon.com/console",
-        category: "production",
+        title: "舊總帳-2",
+        description: "",
+        url: "172.16.10.114",
+        category: "old",
+        env: "formal",
+        icon: "📚"
+    },
+      {
+        title: "舊總帳-測試",
+        description: "",
+        url: "http://172.16.10.114/992/",
+        category: "old",
+        env: "formal",
+        icon: "📚"
+    },
+    {
+        title: "Gitlab",
+        description: "",
+        url: "https://gitlab.rhdgroup.com.tw/",
+        category: "tools",
         env: "formal",
         icon: "☁️"
     },
     {
-        title: "HR Expense System",
-        description: "Submit reimbursement claims and corporate expenses.",
-        url: "https://expenses.example.com",
-        category: "hr",
+        title: "Redmine",
+        description: "",
+        url: "https://redmine.rhdgroup.com.tw/login?back_url=https%3A%2F%2Fredmine.rhdgroup.com.tw%2Fprojects",
+        category: "tools",
         env: "formal",
         icon: "💰"
     },
     {
-        title: "UAT Expense System",
-        description: "Testing the new expense workflow for the next release.",
-        url: "https://uat-expenses.example.com",
-        category: "hr",
-        env: "uat",
+        title: "巨山林資訊儀表板",
+        description: "",
+        url: "https://dms.rhdgroup.com.tw/index.php/apps/dashboard/",
+        category: "tools",
+        env: "formal",
         icon: "🧪"
     }
 ];
